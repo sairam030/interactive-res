@@ -9,6 +9,11 @@ body {
   margin: 0px;
 }
 
+a {
+  text-decoration: none;
+  color: black !important;
+}
+
 .page-container {
   background-color: #fff;
   margin: 0px auto 0px auto;
@@ -40,4 +45,72 @@ body {
   color: #252525;
   margin: 5px 5px 20px 5px;
   font-size: 14px;
+}
+
+.res-neck {
+  background-color: black;
+  padding: 10px;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.res-neck .res-contact {
+  line-height: 14px;
+}
+
+.res-neck .res-contact .contact {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 14px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.res-neck .res-contact .contact .contact-icon {
+  width: 15px;
+  margin: 0px 15px 0px 15px;
+  background-repeat: no-repeat;
+}
+
+.res-neck .res-contact .contact #website {
+  background-image: url("../imgs/website.svg");
+  background-position: center;
+  background-size: contain;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+.res-neck .res-contact .contact #phone {
+  background-image: url("../imgs/phone.png");
+  background-position: center;
+  background-size: contain;
+}
+
+.res-neck .res-contact .contact #email {
+  background-image: url("../imgs/email.png");
+  background-position: center;
+  background-size: contain;
+}
+
+.res-neck .res-contact .contact #github {
+  background-image: url("../imgs/github.png");
+  background-position: center;
+  background-size: contain;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+.res-neck .res-contact .contact #linkedin {
+  background-image: url("../imgs/li.png");
+  background-position: center;
+  background-size: contain;
+  -webkit-filter: invert(1);
+  filter: invert(1);
 }
