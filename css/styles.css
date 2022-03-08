@@ -114,3 +114,13 @@ a {
   -webkit-filter: invert(1);
   filter: invert(1);
 }
+
+.res-body {
+  background-color: #fff;
+  padding: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  border-radius: 0px 0px 15px 15px;
+}
