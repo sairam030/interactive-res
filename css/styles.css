@@ -124,3 +124,92 @@ a {
   grid-template-columns: 2fr 1fr;
   border-radius: 0px 0px 15px 15px;
 }
+
+.res-body .first {
+  width: 90%;
+}
+
+.res-body h3 {
+  font-weight: normal;
+  color: #252525;
+  opacity: 0.6;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.res-body p {
+  color: #252525;
+  font-size: 12px;
+}
+
+.res-body .body-container {
+  padding: 30px;
+}
+
+.res-body .res-ex p {
+  margin: 0px;
+}
+
+.res-body .res-ex h2 {
+  font-size: 20px;
+  margin-top: 30px;
+  color: black;
+  line-height: normal;
+}
+
+.res-body .res-ex span {
+  font-weight: lighter;
+  color: #252525;
+  opacity: 0.6;
+}
+
+.res-body .summary {
+  margin-left: 0px;
+}
+
+.res-body .res-sum a {
+  color: #252525;
+  font-size: 12px;
+}
+
+.res-body .res-sum p {
+  font-size: 12px;
+}
+
+.res-body .res-sum li {
+  font-size: 12px;
+  color: #252525;
+}
+
+.res-body .res-sum .project {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: bold;
+  color: #252525;
+  padding-top: 10px;
+}
+
+.res-body .res-sum .research-title {
+  color: black !important;
+  background: white !important;
+  padding: 0px 0px 0px 3px !important;
+  font-size: 18px !important;
+  opacity: 0.6;
+  font-weight: normal;
+}
+
+.res-body .res-sum span {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding: 5px 10px 5px 10px;
+  line-height: 30px;
+  border-radius: 10px;
+}
+
+.res-body .res-sum span span {
+  padding: 0px;
+  color: black;
+}
