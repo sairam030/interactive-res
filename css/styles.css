@@ -213,3 +213,13 @@ a {
   padding: 0px;
   color: black;
 }
+
+@media screen and (max-width: 600px) {
+  .res-neck {
+    border-radius: 0px;
+  }
+  .res-body {
+    -ms-grid-columns: none;
+    grid-template-columns: none;
+  }
+}
